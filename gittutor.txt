@@ -1,0 +1,28 @@
+git
+user name : git config --global user.name "Jerry Mouse"
+email 	  : git config --global user.email "jerry@tutorialspoint.com"
+
+Avoid merge commits for pulling
+	git config --global branch.autosetuprebase always
+
+Color highlighting
+	git config --global color.ui true
+
+	git config --global color.status auto
+
+	git config --global color.branch auto
+
+Setting default merge tool
+	git config --global merge.tool vimdiff
+
+Listing Git settings
+	git config --list
+
+Create directory and
+
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/gibinmphil/test.git
+	git push -u origin master
+
